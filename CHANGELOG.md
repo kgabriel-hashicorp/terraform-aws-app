@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.2...v0.3.0) (2023-11-27)
+
+
+### Features
+
+* Replace tfsec with checkhov ([#12](https://github.com/craigsloggett-lab/terraform-aws-app/issues/12)) ([d3a7d12](https://github.com/craigsloggett-lab/terraform-aws-app/commit/d3a7d12e94d984c17c8fe7fdd144f5114e7edf96))
+
 ## [0.2.2](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.1...v0.2.2) (2023-11-27)
 
 
