@@ -1,5 +1,14 @@
-# terraform-aws-app
+# Example App Terraform Module
+
 An example Terraform module repository used to showcase automation and tooling.
+
+## Key Features
+
+- [x] Automatic release management using `semantic-release`.
+- [x] Terraform documentation validation using `terraform-docs`.
+- [x] Terraform formatting validation using `terraform fmt`.
+- [x] Terraform security checks using `tfsec`.
+- [ ] Terraform linting with `tflint`.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
