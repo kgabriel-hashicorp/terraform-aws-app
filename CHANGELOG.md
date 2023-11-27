@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.1.2...v0.2.0) (2023-11-27)
+
+
+### Features
+
+* Add tflint to GitHub Actions Checks ([#8](https://github.com/craigsloggett-lab/terraform-aws-app/issues/8)) ([10039f5](https://github.com/craigsloggett-lab/terraform-aws-app/commit/10039f511cf679167c784518b04afc7673d667c7))
+
+
+### Bug Fixes
+
+* Add GitHub workflows to the release pipeline ([#9](https://github.com/craigsloggett-lab/terraform-aws-app/issues/9)) ([5fa9a96](https://github.com/craigsloggett-lab/terraform-aws-app/commit/5fa9a96438a2c6d629c4f47cd67817dab7cac6bc))
+
 ## [0.1.2](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.1.1...v0.1.2) (2023-11-27)
 
 
