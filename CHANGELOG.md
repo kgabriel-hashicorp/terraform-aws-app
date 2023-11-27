@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.0...v0.2.1) (2023-11-27)
+
+
+### Documentation
+
+* Update tflint status in README ([#10](https://github.com/craigsloggett-lab/terraform-aws-app/issues/10)) ([dd18ccf](https://github.com/craigsloggett-lab/terraform-aws-app/commit/dd18ccffb340d9bbfff9cb1a10dac94540790c10))
+
 ## [0.2.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.1.2...v0.2.0) (2023-11-27)
 
 
