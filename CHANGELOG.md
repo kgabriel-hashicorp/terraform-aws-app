@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.2](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.1...v0.2.2) (2023-11-27)
+
+
+### Documentation
+
+* Update dependabot status in README ([#11](https://github.com/craigsloggett-lab/terraform-aws-app/issues/11)) ([d7b2b1a](https://github.com/craigsloggett-lab/terraform-aws-app/commit/d7b2b1aafc0eaff64b0708c65961b8929c8c0d2d))
+
 ## [0.2.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.0...v0.2.1) (2023-11-27)
 
 
