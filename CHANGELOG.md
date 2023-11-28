@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.3.0...v0.3.1) (2023-11-28)
+
+
+### Documentation
+
+* Update readme to include checkov ([#14](https://github.com/craigsloggett-lab/terraform-aws-app/issues/14)) ([a796e5b](https://github.com/craigsloggett-lab/terraform-aws-app/commit/a796e5b5987132574e525ebeaeb49edae9bd2137))
+
 ## [0.3.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.2.2...v0.3.0) (2023-11-27)
 
 
