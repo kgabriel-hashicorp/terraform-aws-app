@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.3.1...v0.4.0) (2023-11-28)
+
+
+### Features
+
+* Add auto commit functionality to the format workflow ([#15](https://github.com/craigsloggett-lab/terraform-aws-app/issues/15)) ([33a0d91](https://github.com/craigsloggett-lab/terraform-aws-app/commit/33a0d916edede708ab58a5899947294d4fd93f01))
+
 ## [0.3.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.3.0...v0.3.1) (2023-11-28)
 
 
