@@ -4,7 +4,7 @@ on:
   pull_request
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   format:
@@ -13,6 +13,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+        token: ${{ secrets.AUTO_COMMIT_TOKEN }}
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v3
       with:
@@ -20,3 +23,10 @@ jobs:
     - name: Format Code
       run: |
         terraform fmt -recursive .
+    - name: Commit Format Changes
+      run: |
+        git config user.name 'GitHub Actions'
+        git config user.email 'actions@github.com'
+        git add .
+        git diff-index --quiet HEAD || git commit -m "fix: Auto format codebase"
+        git push
