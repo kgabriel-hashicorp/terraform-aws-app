@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.5.0...v0.6.0) (2023-11-28)
+
+
+### Features
+
+* Add auto merge for dependabot PRs ([#17](https://github.com/craigsloggett-lab/terraform-aws-app/issues/17)) ([8b3b17c](https://github.com/craigsloggett-lab/terraform-aws-app/commit/8b3b17cb51ed9491d116720349e92f9ba83315fd))
+
 ## [0.5.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.4.0...v0.5.0) (2023-11-28)
 
 
