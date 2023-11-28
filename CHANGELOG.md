@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.6.0...v0.6.1) (2023-11-28)
+
+
+### Bug Fixes
+
+* Revert testing conditional for dependabot auto merge ([4d917d3](https://github.com/craigsloggett-lab/terraform-aws-app/commit/4d917d345d7b6bb498a154fd3b509c45500835b5))
+
 ## [0.6.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.5.0...v0.6.0) (2023-11-28)
 
 
