@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.4.0...v0.5.0) (2023-11-28)
+
+
+### Features
+
+* Add auto commit changes to Terraform documentation ([#16](https://github.com/craigsloggett-lab/terraform-aws-app/issues/16)) ([3000e8f](https://github.com/craigsloggett-lab/terraform-aws-app/commit/3000e8f9e0d41a06caec37c5d10ad4fad3e743f9))
+
 ## [0.4.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.3.1...v0.4.0) (2023-11-28)
 
 
