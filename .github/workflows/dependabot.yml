@@ -9,7 +9,7 @@ permissions:
 jobs:
   dependabot:
     runs-on: ubuntu-20.04
-    if: ${{ github.actor == 'dependabot[bot]' }}
+    #if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Dependabot Metadata
         id: metadata
@@ -21,10 +21,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr merge --auto --squash "$PR_URL"
-      - name: Approve a PR
+      - name: Approve the Dependabot PR
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ secrets.AUTO_COMMIT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.AUTO_MERGE_TOKEN }}
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
