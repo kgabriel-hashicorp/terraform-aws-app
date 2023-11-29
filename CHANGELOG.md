@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.7.0...v0.7.1) (2023-11-29)
+
+
+### Documentation
+
+* Update README with additional required workflow ([#23](https://github.com/craigsloggett-lab/terraform-aws-app/issues/23)) ([f56aec2](https://github.com/craigsloggett-lab/terraform-aws-app/commit/f56aec2f531728e26e635f2d921a90bf1453994b))
+
 ## [0.7.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.6.1...v0.7.0) (2023-11-29)
 
 
