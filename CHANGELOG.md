@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.0](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.6.1...v0.7.0) (2023-11-29)
+
+
+### Features
+
+* Add required files check ([#21](https://github.com/craigsloggett-lab/terraform-aws-app/issues/21)) ([18b20c5](https://github.com/craigsloggett-lab/terraform-aws-app/commit/18b20c549e3834f625a3757f9a99efda803d9abf))
+
+
+### Bug Fixes
+
+* Update workflow file extension to be consistent ([#22](https://github.com/craigsloggett-lab/terraform-aws-app/issues/22)) ([e340c4b](https://github.com/craigsloggett-lab/terraform-aws-app/commit/e340c4bd455c73ae94c797f633acdf22db764e4c))
+
 ## [0.6.1](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.6.0...v0.6.1) (2023-11-28)
 
 
