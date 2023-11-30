@@ -12,8 +12,6 @@ An example Terraform module repository used to showcase automation and tooling.
 - [x] Terraform linting with `tflint`.
 - [x] Ensure required files exist in the repository (for example, CODEOWNERS).
 
-Adding for DEMO
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
