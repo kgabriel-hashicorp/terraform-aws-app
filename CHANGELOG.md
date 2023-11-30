@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.3](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.7.2...v0.7.3) (2023-11-30)
+
+
+### Documentation
+
+* Remove DEMO text from README ([45ff4e6](https://github.com/craigsloggett-lab/terraform-aws-app/commit/45ff4e6d2c6d7636023eba5a0381c50172712919))
+
 ## [0.7.2](https://github.com/craigsloggett-lab/terraform-aws-app/compare/v0.7.1...v0.7.2) (2023-11-29)
 
 
