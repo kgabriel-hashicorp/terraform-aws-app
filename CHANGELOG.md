@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-beta.1](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v1.0.0...v1.1.0-beta.1) (2023-11-30)
+
+
+### Features
+
+* add tf files for required check ([#2](https://github.com/kgabriel-hashicorp/terraform-aws-app/issues/2)) ([ac042d6](https://github.com/kgabriel-hashicorp/terraform-aws-app/commit/ac042d693d8fe49c5697b96611c1e9348d6334f5))
+
 ## 1.0.0 (2023-11-30)
 
 
