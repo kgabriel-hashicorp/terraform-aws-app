@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v1.0.0...v1.1.0) (2023-12-05)
+
+
+### Features
+
+* Test terraform docs configs ([#5](https://github.com/kgabriel-hashicorp/terraform-aws-app/issues/5)) ([46e613b](https://github.com/kgabriel-hashicorp/terraform-aws-app/commit/46e613bc2418bece1587cf122ece2fadfd86bf2f))
+
 ## 1.0.0 (2023-11-30)
 
 
