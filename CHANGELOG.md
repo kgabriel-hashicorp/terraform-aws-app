@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v1.1.0...v1.2.0) (2023-12-05)
+
+
+### Features
+
+* Test PR RW token if will update readme.md ([#6](https://github.com/kgabriel-hashicorp/terraform-aws-app/issues/6)) ([8cf9506](https://github.com/kgabriel-hashicorp/terraform-aws-app/commit/8cf95063dfa78f94dea78a53ed126002bf7a0c5e))
+
 ## [1.1.0](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v1.0.0...v1.1.0) (2023-12-05)
 
 
