@@ -18,8 +18,8 @@ jobs:
         token: ${{ secrets.PULL_REQUEST_RW }}
     - name: Generate Docs
       uses: terraform-docs/gh-actions@v1.0.0
-#      with:
-#        git-push: false
-#        git-push-user-name: "GitHub Actions"
-#        git-push-user-email: "actions@github.com"
-#        git-commit-message: "fix: Auto update Terraform docs"
+      with:
+        working-dir: .
+        output-file: README.md
+        output-method: inject
+        git-push: "false"
