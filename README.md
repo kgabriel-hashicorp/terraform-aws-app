@@ -34,11 +34,6 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_s3_bucket_acl.terraform_state_acl](https://registry.terraform.io/providers/hashicorp/aws/5.27.0/docs/resources/s3_bucket_acl) | resource |
-| [aws_s3_bucket_server_side_encryption_configuration.terraform_state_sse](https://registry.terraform.io/providers/hashicorp/aws/5.27.0/docs/resources/s3_bucket_server_side_encryption_configuration) | resource |
-| [aws_s3_bucket_versioning.terraform_state_versioning](https://registry.terraform.io/providers/hashicorp/aws/5.27.0/docs/resources/s3_bucket_versioning) | resource |
-| [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/5.27.0/docs/data-sources/caller_identity) | data source |
-| [aws_region.current](https://registry.terraform.io/providers/hashicorp/aws/5.27.0/docs/data-sources/region) | data source |
 
 ## Inputs
 
