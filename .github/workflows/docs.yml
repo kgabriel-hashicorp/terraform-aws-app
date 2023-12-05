@@ -20,5 +20,6 @@ jobs:
       uses: terraform-docs/gh-actions@v1.0.0
       with:
         git-push: true
-        git-push-user-name: "karla gabriel"
+        git-push-user-name: ${{ github.actor }}
         git-push-user-email: "karla@github.com"
+        git-commit-message: "fix: Auto update Terraform docs"
