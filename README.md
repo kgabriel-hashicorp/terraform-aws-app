@@ -7,9 +7,7 @@
 
 ### What is the difference between a root and child module?
 * Root modules are where the infrastructures are actually applied.
-* Child modules are called into root modules
-
-
+* Child modules are called into root modules.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
