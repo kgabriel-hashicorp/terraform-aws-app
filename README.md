@@ -1,16 +1,15 @@
 # Example App Terraform Module
 
-An example Terraform module repository used to showcase automation and tooling.
+### What is a child module?
+* A set of self-contained Terraform configuration files that defines a specific set/piece of infrastructure
+* These are building blocks that you can call into your root module
+* Child modules are reusable and modular building blocks you can call into your root module to build complex infrastructures.
 
-## Key Features
+### What is the difference between a root and child module?
+* Root modules are where the infrastructures are actually applied.
+* Child modules are called into root modules
 
-- [x] Automatic dependency updates using `dependabot`.
-- [x] Automatic release management using `semantic-release`.
-- [x] Terraform documentation validation using `terraform-docs`.
-- [x] Terraform formatting validation using `terraform fmt`.
-- [x] Terraform security checks using `checkov`.
-- [x] Terraform linting with `tflint`.
-- [x] Ensure required files exist in the repository (for example, CODEOWNERS).
+
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
