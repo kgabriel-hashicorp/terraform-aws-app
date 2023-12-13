@@ -15,11 +15,9 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.ref }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PR_CONTENTS_RW }}
     - name: Generate Docs
       uses: terraform-docs/gh-actions@v1.0.0
       with:
         git-push: true
-        git-push-user-name: "Github Actions"
-        git-push-user-email: "karla@github.com"
         git-commit-message: "fix: Auto update Terraform docs"
