@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.1](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v5.1.0...v5.1.1) (2023-12-14)
+
+
+### Bug Fixes
+
+* Update readme.md ([#19](https://github.com/kgabriel-hashicorp/terraform-aws-app/issues/19)) ([3e1949a](https://github.com/kgabriel-hashicorp/terraform-aws-app/commit/3e1949ab86a535983e259405fdd15be3e3d690cc))
+
 ## [5.1.0](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v5.0.0...v5.1.0) (2023-12-14)
 
 
