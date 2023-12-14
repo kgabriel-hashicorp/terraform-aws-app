@@ -73,11 +73,9 @@ Link to the [ModuleStandardizationPage]
 ## Release Management
 
 * Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
-* Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
+* The list of allowed PR title prefix can be found [here]
 
-    * `chore` | `docs` | `ci` | `fix` : new patch version
-    * `feat`  : new minor version
-    * `break` : new major version
+
 
 * Root Modules that have dependabot setup for this child module will automatically get the new versions via a PR.
 
@@ -91,3 +89,5 @@ Link to the [ModuleStandardizationPage]
 
 CODEOWNERS file contain the maintainers of this repository
 This can also include a link to a [Slack] Channel 
+
+[here]: (https://github.com/kgabriel-hashicorp/terraform-aws-app/blob/47f7be48041bdda79795456c38e3a1d9224d541c/.github/workflows/validate.yml#L22)
