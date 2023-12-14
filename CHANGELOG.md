@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.1](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v4.0.0...v4.0.1) (2023-12-14)
+
+
+### Bug Fixes
+
+* Revert validate yaml ([#15](https://github.com/kgabriel-hashicorp/terraform-aws-app/issues/15)) ([5d83d6c](https://github.com/kgabriel-hashicorp/terraform-aws-app/commit/5d83d6c8b5460238228f98cb644b23b5a7a03d7c))
+
 ## [4.0.0](https://github.com/kgabriel-hashicorp/terraform-aws-app/compare/v3.1.1...v4.0.0) (2023-12-14)
 
 
