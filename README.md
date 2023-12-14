@@ -1,13 +1,16 @@
 # Example App Terraform Module
 
-### What is a child module?
-* A set of self-contained Terraform configuration files that defines a specific set/piece of infrastructure
-* These are building blocks that you can call into your root module
-* Child modules are reusable and modular building blocks you can call into your root module to build complex infrastructures.
+This repository contains the standards we recommend having for a child module in Terraform.
 
-### What is the difference between a root and child module?
-* Root modules are where the infrastructures are actually applied.
-* Child modules are called into root modules.
+## Usage
+This terraform module will create an S3 Bucket.
+
+## Module Version Updates
+
+* This module relies on dependabot to manage the module dependencies.
+* A PULL REQUEST will automatically be raised if there are new versions of the child modules from either the public or private Terraform Registry.
+* The PULL REQUEST will have to approved by the CODEOWNERS.
+* More details can be found under ` .github/workflows/README.md `
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -56,6 +59,17 @@ No inputs.
 | <a name="output_region"></a> [region](#output\_region) | The AWS region the S3 bucket is deployed to. |
 <!-- END_TF_DOCS -->
 
+## Contributing
+
+* Commit messages and PR titles must follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+ 
+ * Pull requests will need to be reviewed by the CODEOWNERS.
+
+## Maintainers
+
+CODEOWNERS file contain the maintainers of this repository
+This can also include a link to a Slack Channel 
+
 ## Authors
 Module is maintained with the help from [these awesome
 contributors](https://github.com/craigsloggett-lab/terraform-aws-app/graphs/contributors).
@@ -64,3 +78,4 @@ contributors](https://github.com/craigsloggett-lab/terraform-aws-app/graphs/cont
 MIT Licensed. See
 [LICENSE](https://github.com/craigsloggett-lab/terraform-aws-app/blob/main/LICENSE)
 for full details.
+
