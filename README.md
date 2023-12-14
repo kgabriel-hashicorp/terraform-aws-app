@@ -73,10 +73,11 @@ Link to the [ModuleStandardizationPage]
 ## Release Management
 
 * Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
+* Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
 
-    * `chore` | `docs` | `ci` : new patch version
+    * `chore` | `docs` | `ci` | `fix` : new patch version
     * `feat`  : new minor version
-    * `fix` | `feat` : new major version
+    * `break` : new major version
 
 * Root Modules that have dependabot setup for this child module will automatically get the new versions via a PR.
 
