@@ -73,6 +73,7 @@ Link to the [ModuleStandardizationPage]
 ## Release Management
 
 * Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
+* Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
 
     * `chore` | `docs` | `ci` | `fix` : new patch version
     * `feat`  : new minor version
