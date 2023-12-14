@@ -59,23 +59,34 @@ No inputs.
 | <a name="output_region"></a> [region](#output\_region) | The AWS region the S3 bucket is deployed to. |
 <!-- END_TF_DOCS -->
 
+## Reference
+
+Link to the [ModuleStandardizationPage]
+
+## Module Dependencies
+
+* This module relies on dependabot to manage the module dependencies.
+* A PULL REQUEST will automatically be raised if there are new versions of the child modules from either the public or private Terraform Registry.
+* The PULL REQUEST will have to approved by the CODEOWNERS.
+* More details can be found under ` .github/workflows/README.md `
+
+## Release Management
+
+* Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix
+
+    * `chore` : new patch version
+    * `feat`  : new minor version
+    * `fix` | `BREAKING CHANGE` : new major version
+
+* Root Modules that have dependabot setup for this child module will automatically get the new versions via a PR.
+
+
 ## Contributing
 
 * Commit messages and PR titles must follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
- 
- * Pull requests will need to be reviewed by the CODEOWNERS.
+* Pull requests will need to be reviewed by the CODEOWNERS.
 
 ## Maintainers
 
 CODEOWNERS file contain the maintainers of this repository
-This can also include a link to a Slack Channel 
-
-## Authors
-Module is maintained with the help from [these awesome
-contributors](https://github.com/craigsloggett-lab/terraform-aws-app/graphs/contributors).
-
-## License
-MIT Licensed. See
-[LICENSE](https://github.com/craigsloggett-lab/terraform-aws-app/blob/main/LICENSE)
-for full details.
-
+This can also include a link to a [Slack] Channel 
