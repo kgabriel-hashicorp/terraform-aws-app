@@ -74,11 +74,7 @@ Link to the [ModuleStandardizationPage]
 
 * Following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) a new release is created depending on the PR title prefix and commits.
 * The list of allowed PR title prefix can be found [here]
-
-
-
 * Root Modules that have dependabot setup for this child module will automatically get the new versions via a PR.
-
 
 ## Contributing
 
